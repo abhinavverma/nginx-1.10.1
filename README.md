@@ -13,8 +13,8 @@ below are nginx build with custom modules to support extra funtionality. version
 > - nginx-module-perl_1.10.1-1~trusty_amd64.deb - [nginx perl module](http://nginx.org/en/docs/http/ngx_http_perl_module.html).
 > - nginx-module-xslt_1.10.1-1~trusty_amd64.deb - [nginx xslt module](http://nginx.org/en/docs/http/ngx_http_xslt_module.html).
 
-```
 **step to hold package from auto upgrade**
+```
 sudo set on hold nginx
 apt-mark showhold
 echo "nginx hold" | sudo dpkg --set-selections
